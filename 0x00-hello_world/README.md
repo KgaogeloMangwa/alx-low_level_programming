@@ -1,1 +1,1 @@
-hello world project in C
+script that compiles a c file but does not link
