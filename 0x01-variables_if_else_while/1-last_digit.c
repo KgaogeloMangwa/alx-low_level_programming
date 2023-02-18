@@ -21,14 +21,14 @@ int main(void)
 
 	if (Ldn > 5)
 	{
-		printf("%d and is greater than 5\n", strn, n, Ldn);
+		printf("%s %d is %d and is greater than 5\n", strn, n, Ldn);
 	}
 	else if (Ldn == 0)
 	{
-		printf("%d and is 0\n", strn, n, Ldn);
+		printf("%s %d is %d and is 0\n", strn, n, Ldn);
 	}
 	else if (Ldn < 6)
-		printf("%d and is less than 6 and not 0\n", strn, n, Ldn);
+		printf("%s %d is %d and is less than 6 and not 0\n", strn, n, Ldn);
 
 	return (0);
 }
