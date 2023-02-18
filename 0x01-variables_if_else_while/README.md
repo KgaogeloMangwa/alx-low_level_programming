@@ -1,1 +1,1 @@
-a program that prints alphabets in lowercase followed by a new line
+a program that prints alphabets in lowercase then uppercase
