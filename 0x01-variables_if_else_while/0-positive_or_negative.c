@@ -1,15 +1,16 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
- * main - entry point of our program
+ * main- entry point of our program
  *
- * Description: This program will assign a random number 
- * to the variable n each time it is executed
+ * Description: this program will assign a random
+ * number to the value n everytime it is executed
  *
- * Return - is always 0 to show nothing is failing
-*/
+ * Return: Always 0 (success)
+ */
+
 
 int main(void)
 {
@@ -30,5 +31,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
