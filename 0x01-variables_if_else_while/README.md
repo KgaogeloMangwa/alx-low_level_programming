@@ -1,1 +1,1 @@
-a program that prints alphabets in lowercase then uppercase
+print alphabet in lowercase without q and e
