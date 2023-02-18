@@ -1,1 +1,1 @@
-print alphabet in lowercase without q and e
+a program that prints all single digit numbers of base 10 starting from 0
