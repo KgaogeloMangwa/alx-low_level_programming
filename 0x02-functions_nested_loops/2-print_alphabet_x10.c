@@ -18,10 +18,10 @@ void print_alphabet_x10(void)
 		az = 'a';
 		while (az <= 'z')
 		{
-			putchar(az);
+			_putchar(az);
 			az++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }
