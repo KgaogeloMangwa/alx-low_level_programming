@@ -1,1 +1,1 @@
- a function that prints the n times table starting with 0
+a program that finds and prints the sum of the even-valued terms
