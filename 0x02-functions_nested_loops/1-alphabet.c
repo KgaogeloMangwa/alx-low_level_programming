@@ -10,19 +10,14 @@
 
 void print_alphabet(void);
 
-int main(void)
 {
-	char alpha;
+	char alpha = 'a';
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		print_alphabet();
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
 
-	return (0);
-
-}
-
-void print_alphabet(void)
-{
-	putchar(alpha);
 	putchar('\n');
 }
