@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main- entry point of our program
@@ -14,10 +14,10 @@ int main(void)
 
 	while (*out)
 	{
-		_putchar(*out);
+		putchar(*out);
 		out++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }

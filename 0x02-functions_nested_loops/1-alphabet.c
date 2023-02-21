@@ -8,13 +8,20 @@
  * Return: Always 0 (success)
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
+
+int main(void)
 {
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
+		print_alphabet();
 
-	putchar('\n');
+	return (0);
 
+}
+
+void print_alphabet(){
+	putchar(alpha);
+	putchar('\n')
 }
