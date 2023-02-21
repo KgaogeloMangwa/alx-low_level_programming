@@ -1,1 +1,1 @@
-a function that prints every minute of the day of Jack Bauer
+a function that adds two integers and returns the result
