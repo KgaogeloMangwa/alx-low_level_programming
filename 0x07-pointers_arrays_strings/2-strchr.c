@@ -5,9 +5,8 @@
  *
  * @s: the string input
  * @c: the character to locate
- * @s: NULL character not available
  *
- * Return: a pointer to the first occurance of the located char
+ * Return: 0 (sucess)
  */
 char *_strchr(char *s, char c)
 {
