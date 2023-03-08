@@ -8,7 +8,7 @@ int palindrome(char str[], int st, int end);
  * @s: string to evaluate
  * Return: 0 always
  */
-int is _palindrome(char *s)
+int is_palindrome(char *s)
 {
 	int len;
 
