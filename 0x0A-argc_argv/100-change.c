@@ -4,8 +4,8 @@
 /**
  * coinConverter - a program that prints the minimum number
  * of coins to make change for an amount of money
- * @i: received amount in need of change
- * Return: number of coins needed
+ * @i: the amount in need of change
+ * Return: number of coins needed for change
  */
 int coinConverter(int i)
 {
@@ -40,7 +40,7 @@ int coinConverter(int i)
 /**
  * main - Takes in exactly one argument for minimum coin count
  * @argc: Number of arguments
- * @argv: arguments vector
+ * @argv: args vector
  * Return: 0 if exactly 1 argument is passed into this program, 1 otherwise
  */
 int main(int argc, char *argv[])
