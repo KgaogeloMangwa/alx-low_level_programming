@@ -6,8 +6,9 @@
   * string_nconcat - a function that concatenates two strings
   * @s1: first string
   * @s2: second string
-  * @n: integer n
-  * Return 0 always
+  * @n: unsigned integer
+  *
+  * Return: 0 always
   */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
