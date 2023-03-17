@@ -23,8 +23,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[w])
 		w++;
 
-	while (s2[k])
-		k++;
+	while (s2[y])
+		y++;
 
 	if (n >= y)
 		z = w + y;
