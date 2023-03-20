@@ -1,5 +1,5 @@
-#ifndef POPPY_D
-#define POPPY_D
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - a function that defines a dog structure
@@ -12,11 +12,12 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-} poppy_d;
+} dog_t;
 
-void init_poppy(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
 void print_dog(struct dog *d);
-poppy_d *new_dog(char *name, float age, Char *owner);
-void free_poppy(poppy_d *d);
+dog_t *new_dog(char *name, float age, Char *owner);
+void free_poppy(dog_t *d);
 
 #endif
