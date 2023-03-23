@@ -10,19 +10,18 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	var_list varlist;
-	int sum = 0;
-	unsigned int i;
+	va_list varlist;
+	unsigned int  i, sum = 0;
 
 	if (n == 0)
 		return (0);
 
-	var_list(varlist, n);
+	va_list(varlist, n);
 
 	for (i = 0; i < n; i++)
 	{
-		sum += vararg(varlist, const unsigned int);
+		sum += va_arg(varlist, const unsigned int);
 	}
-	var_end(varlist);
+	va_end(varlist);
 	return (sum);
 }
