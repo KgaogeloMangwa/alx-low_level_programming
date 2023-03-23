@@ -19,7 +19,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	var_list(varlist, n);
 
-	for (i = o; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		sum += vararg(varlist, const unsigned int);
 	}
