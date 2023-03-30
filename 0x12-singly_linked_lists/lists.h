@@ -10,6 +10,9 @@
  *
  * Description: singly linked list node structure
  */
+
+#include <stdlib.h>
+
 typedef struct list_s
 {
     char *str;
