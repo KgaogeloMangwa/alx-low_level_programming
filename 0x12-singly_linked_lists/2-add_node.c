@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <string.h>
 
 /**
@@ -24,9 +24,9 @@ list_t *add_node(list_t **head, const char *str)
 		free(new_node);
 		return (NULL);
 	}
-	new node->next = *head;
+	new_node->next = *head;
 
-	*head = (new_node);
+	*head = new_node;
 
 	return (new_node);
 }
