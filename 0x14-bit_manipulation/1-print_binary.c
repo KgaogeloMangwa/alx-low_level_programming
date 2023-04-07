@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <math.h>
 
 /**
  * print_binary - a function that prints the binary representation of a number
@@ -8,22 +9,16 @@
 
 void print_binary(unsigned long int n)
 {
-	int i;
-	unsigned long int mask;
-
-	mask = (unsigned int long)1 << ((sizeof(unsigned long int) * 8) - 1);
-
-	for (i = 0; i < (int)(sizeof(unsigned long int) * 8); i++)
+	if (n == 0)
 	{
-		if (n & mask)
-		{
-			putchar('1');
-		}
-		else
-		{
-			putchar('0');
-		}
-
-		mask >>= 1;
+		putchar('0');
+		return;
 	}
+	else if (n == 1)
+	{
+		putchar ('1');
+		return;
+	}
+	print_binary(n >> 1);
+	putchar('0' + (n & 1));
 }
