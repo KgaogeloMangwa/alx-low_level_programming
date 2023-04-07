@@ -3,8 +3,8 @@
 #include <string.h>
 
 
-/*
- * binary_to_uint a function that converts a binary number
+/**
+ * binary_to_uint - a function that converts a binary number
  * to an unsigned int
  * @b: pointing to the string of 0 1 chars
  * Return: the converted number, or 0 if there is one or more
